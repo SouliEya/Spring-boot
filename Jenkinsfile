@@ -23,8 +23,8 @@ pipeline {
         stage('checkout GIT') {
             steps{
                 echo 'Pulling ... ';
-            git branch:'karim_chakroun' ,
-            url : 'https://github.com/OussemaAbderrahmen/SpringFinalAchat.git';
+            git branch:'main' ,
+            url : 'https://github.com/SouliEya/Spring-boot.git';
             }
         }
         stage("Mvn clean") {
